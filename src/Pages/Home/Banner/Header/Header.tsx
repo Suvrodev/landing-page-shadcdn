@@ -47,7 +47,7 @@ const Header = () => {
       </div>
 
       {/* Mobile device */}
-      <div className=" flex flex-col items-center gap-[7px] md:hidden">
+      <div className=" flex flex-col items-center gap-[2px] md:hidden">
         <div className="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

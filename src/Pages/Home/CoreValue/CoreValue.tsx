@@ -13,7 +13,7 @@ const CoreValue = () => {
     "Cultural Sensitivity",
   ];
   return (
-    <div className="bg-[#FFD400] pt-[100px] px-[50px] md:px-[124px] ">
+    <div className="bg-[#FFD400] pt-[20px] md:pt-[100px] px-[38px] md:px-[124px] ">
       <h1 className="text-center text-[#231F20] font-semibold text-[20px] md:text-[42px]">
         Our Core Values
       </h1>
@@ -26,7 +26,11 @@ const CoreValue = () => {
         ))}
       </div>
       <div className="flex items-center justify-center mt-6">
-        <img src={coreValueImage} alt="" />
+        <img
+          src={coreValueImage}
+          alt=""
+          className="w-[164px] h-[90px] md:w-auto md:h-auto"
+        />
       </div>
     </div>
   );

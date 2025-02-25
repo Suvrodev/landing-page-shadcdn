@@ -1,22 +1,22 @@
 import compassionImage from "@/assets/compassionImage.png";
 const Compassion = () => {
   return (
-    <div className="px-[38px] md:px-[124px]">
+    <div className="px-[38px] md:pl-[68px] md:pr-[128px] ">
       <div className="flex flex-col-reverse md:flex-row gap-[20px] md:gap-[103px]">
-        <div className=" w-full md:w-[40%] flex justify-center ">
+        <div className=" w-full md:w-[33%] flex justify-center items-center ">
           <img
             src={compassionImage}
             alt=""
             className=" w-[150px] h-[178px] md:w-[369px] md:h-[423px]  "
           />
         </div>
-        <div className=" w-full md:w-[60%] ">
+        <div className=" w-full md:w-[67%] ">
           <div>
             <h1 className="text-[24px] md:text-[54px] text-center md:text-left font-bold">
               What is <br />
               The Compassion <br /> Collaboration?{" "}
             </h1>
-            <p className="text-[#454545] text-[28px]  mt-[67px] hidden md:block">
+            <p className="text-[#454545] text-[28px] relativemt-[67px] hidden md:block ">
               At{" "}
               <span className="font-bold">
                 The Compassion Collaborative (TCC),

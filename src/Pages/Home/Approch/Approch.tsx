@@ -16,7 +16,7 @@ const Approch = () => {
 
   return (
     <div className="flex flex-col gap-[32px] items-center md:px-[125px] relative">
-      <div className="pt-[92px] md:pt-[243px] pb-[64px] md:pb-[124px] flex flex-col gap-[12px] md:gap-[32px] z-10 ">
+      <div className="pt-[25px] md:pt-[243px] pb-[64px] md:pb-[124px] flex flex-col gap-[12px] md:gap-[32px] z-10 ">
         {approachs.map((data, idx) => (
           <ApproachBox key={idx} data={data} />
         ))}
