@@ -31,13 +31,13 @@ const Founder = () => {
             The Compassion Collaboratives
           </p>
         </div>
-        <div className="mt-[70px] mb-[72px]">
-          <div className="mx-[320px] flex items-center gap-[100px]">
+        <div className="hidden md:block mt-[70px] mb-[72px] ">
+          <div className="mx-[320px] flex items-center justify-center gap-[100px] ">
             <FounderImage data={founders[0]} />
             <FounderImage data={founders[1]} />
           </div>
 
-          <div className="mx-[224px] flex items-center gap-[100px] mt-[46px]">
+          <div className="mx-[224px] flex items-center justify-center gap-[100px] mt-[46px]">
             <FounderImage data={founders[2]} />
             <FounderImage data={founders[3]} />
             <FounderImage data={founders[4]} />

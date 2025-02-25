@@ -41,7 +41,7 @@ const organizationalServices = [
   },
   {
     title: "Leadership coaching & well-being and resilience",
-    bgColor: "#DCE8FF",
+    bgColor: "#FFE0E0",
   },
 ];
 

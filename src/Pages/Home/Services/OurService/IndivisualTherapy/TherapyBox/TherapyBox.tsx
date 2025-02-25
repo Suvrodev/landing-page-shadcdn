@@ -13,13 +13,13 @@ const TherapyBox = ({ data }: IProps) => {
   const { title, desc, bgColor } = data;
   return (
     <div
-      className={`w-[440px] h-[345px]  rounded-[24px] pt-[48px] px-[36px]`}
+      className={` w-[172px] h-[171px] md:w-[440px] md:h-[345px]  rounded-[12px] md:rounded-[24px] pt-[18px] md:pt-[48px] px-[7px] md:px-[36px]`}
       style={{ backgroundColor: bgColor }}
     >
-      <h1 className="headingColor text-center font-bold text-[22px]">
+      <h1 className="headingColor text-center font-bold text-[12px] md:text-[22px]">
         {title}
       </h1>
-      <div className="w-[368px] leading-[34px] mx-auto text-center mt-[43px]">
+      <div className="w-[158px] md:w-[364px] mx-auto leading-4 md:leading-[34px]  text-center mt-[10px] md:mt-[43px] ">
         {desc}
       </div>
     </div>

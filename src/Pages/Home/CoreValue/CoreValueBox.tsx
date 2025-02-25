@@ -18,9 +18,9 @@ const CoreValueBox = ({ text, number }: IProps) => {
   const bgColor = colors[number] || "bg-white";
   return (
     <div
-      className={`w-[240px] h-[72px]  rounded-[10px] flex items-center justify-center ${bgColor}`}
+      className={`w-auto md:w-[240px] h-[34px] md:h-[72px]  rounded-[10px] flex items-center justify-center py-[9px] md:py-[24px] ${bgColor}`}
     >
-      <h1 className="font-semibold text-[20px]">{text}</h1>
+      <h1 className="font-semibold text-[14px] md:text-[20px]">{text}</h1>
     </div>
   );
 };

@@ -10,8 +10,8 @@ const Banner = () => {
         <Header />
       </div>
 
-      <div className="grid grid-cols-2 px-[124px] ">
-        <div className="relative">
+      <div className="flex gap-[124px] px-[124px]  ">
+        <div className="relative w-1/2 ">
           <div className="w-full  text-[70px] font-bold ">
             <h1>We're all a </h1>
             <h1>little tangled</h1>
@@ -30,11 +30,11 @@ const Banner = () => {
             Accessible, Person-centered, <br /> and Transformative
           </p>
         </div>
-        <div className=" flex justify-end">
+        <div className=" flex justify-end ">
           <img src={bannerImage} alt="" className="w-[416px] h-[474px]" />
         </div>
 
-        <div className="absolute left-1/2 top-[280px]">
+        <div className="absolute left-1/2 top-[280px] ">
           <img src={bannerMessage} alt="" />
         </div>
       </div>
