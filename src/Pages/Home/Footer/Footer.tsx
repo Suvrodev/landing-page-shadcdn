@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       {/* Desktop Footer */}
-      <div className=" bg-[#FFD400] hidden md:grid grid-cols-3 p-20 headingColor">
+      <div className=" bg-[#FFD400] hidden md:grid grid-cols-3 px-[124px] pt-[78px] pb-[111px] headingColor">
         <div>
           <img src={logoImage} alt="" className="w-[151.96px] h-[48px]" />
           <p className="mt-[33px] text-[14px]">
