@@ -22,26 +22,27 @@ const MobileBanner = () => {
             self-care. See us in person or online, individually or through your
             workplace.
           </p>
-
-          <Button className="mt-[24px] text-black w-[104px] h-[24px] bg-[#FFD400] hover:bg-[#FFD400] text-[10px] font-semibold">
-            Book a Session
-          </Button>
         </div>
-        <div className="relative mt-[12px]">
-          <div className="flex justify-between items-end gap-[40px] ">
-            <p className="font-bold text-[14px] w-[134px] ">
-              Accessible, <br /> Person-centered, <br /> and Transformative
-            </p>
+        <div className="relative mt-[5px]">
+          <div className="flex justify-between  gap-[40px] ">
+            <div className="h-auto flex flex-col justify-between ">
+              <Button className=" mt-[12px] text-black w-[104px] h-[24px] bg-[#FFD400] hover:bg-[#FFD400] text-[10px] font-semibold">
+                Book a Session
+              </Button>
+              <p className="font-bold text-[14px] w-[134px] ">
+                Accessible, <br /> Person-centered, <br /> and Transformative
+              </p>
+            </div>
             <div className=" flex justify-end ">
               <img src={bannerImage} alt="" className="w-[130px] h-[130px]" />
             </div>
           </div>
 
-          <div className="absolute left-[100px] bottom-[80px] ">
+          <div className="absolute left-[120px] bottom-[80px] ">
             <img src={bannerMessage} alt="" className="w-[46px] h-[45px]" />
           </div>
         </div>
-        <div className="absolute bottom-0 right-[32%]">
+        <div className="absolute bottom-0 right-[28%]">
           <img src={bannerShadow} alt="" className="w-[80px] h-[73px]" />
         </div>
       </div>

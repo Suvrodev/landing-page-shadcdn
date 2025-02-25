@@ -5,12 +5,12 @@ import bannerMessage from "@/assets/Banner_Message.png";
 import bannerShadow from "@/assets/bannerShadow.png";
 const Banner = () => {
   return (
-    <div className="bg-[rgba(209,242,255,0.50)] pb-[108px] relative">
+    <div className="bg-[rgba(209,242,255,0.50)] pb-[108px] relative ">
       <div>
         <Header />
       </div>
 
-      <div className="flex gap-[124px] px-[124px]  ">
+      <div className="flex gap-[174px] px-[124px]  ">
         <div className="relative w-1/2 ">
           <div className="w-full  text-[70px] font-bold ">
             <h1>We're all a </h1>
