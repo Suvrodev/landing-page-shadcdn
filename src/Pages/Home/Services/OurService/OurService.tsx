@@ -4,7 +4,7 @@ import OrganizationalServices from "./IndivisualTherapy/OrganizationalServices/O
 const OurService = () => {
   return (
     <div className="">
-      <h1 className="text-center font-bold text-[20px] md:text-[50px] headingColor">
+      <h1 className="text-center font-bold text-[20px] md:text-[50px] headingColor ">
         Our Services
       </h1>
       <div className="w-auto md:w-[494px] mx-auto mt-[10px] ">
@@ -17,7 +17,7 @@ const OurService = () => {
         <IndividualTherapy />
       </div>
 
-      <div className="mt-[154px] ">
+      <div className="mt-[17px] md:mt-[154px] ">
         <OrganizationalServices />
       </div>
     </div>

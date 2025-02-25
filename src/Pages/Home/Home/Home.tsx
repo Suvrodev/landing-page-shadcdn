@@ -31,10 +31,10 @@ const Home = () => {
       <div className="mt-[55px] ">
         <OurService />
       </div>
-      <div className="  my-[132px]">
+      <div className=" my-[55px] md:my-[132px]">
         <Founder />
       </div>
-      <div className="hidden">
+      <div className="">
         <BookASection />
       </div>
       <div>
