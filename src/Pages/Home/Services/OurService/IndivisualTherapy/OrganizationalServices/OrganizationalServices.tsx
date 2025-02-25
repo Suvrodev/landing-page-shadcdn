@@ -9,10 +9,10 @@ const OrganizationalServices = () => {
       <h1 className="text-center headingColor text-[18px] md:text-[33px] font-semibold  ">
         Organizational services
       </h1>
-      <p className="text-center text-[10px] md:text-[19px]">
+      <p className="text-center mt-[12px] text-[16px] md:text-[18px]">
         We collaborate with organizations to create healthy workplaces through:
       </p>
-      <div className="flex items-center justify-center mt-[12px] md:mt-[44px]  ">
+      <div className="flex items-center justify-center mt-[37px] md:mt-[44px]  ">
         <div className="flex items-center gap-[16px] md:gap-[54px]  ">
           <ServiceBox data={organizationalServices[0]} />
           <ServiceBox data={organizationalServices[1]} />

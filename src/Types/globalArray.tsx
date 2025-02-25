@@ -6,7 +6,7 @@ const ourServices = [
   },
   {
     title: "Psychiatric Support",
-    desc: "We offer individual therapy, couples counseling, family therapy, and psychiatric consultations, both in-person and online—tailored to your unique needs.",
+    desc: "The Compassion Collaborative provides empathetic, non-judgmental psychiatric consultations, prioritizing your well-being through personalized treatment plans that respect your values and create a safe space for healing.",
     bgColor: "#DDFFDA",
   },
   {

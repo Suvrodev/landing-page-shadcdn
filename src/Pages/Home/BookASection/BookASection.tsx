@@ -107,7 +107,7 @@ const BookASection = () => {
               Let’s build a <br /> compassionate world together.
             </h1>
 
-            <Button className="rounded-lg bg-[#FFD400] hover:bg-[#FFD400] backdrop-blur-[18px] headingColor mt-[8px]">
+            <Button className="rounded-lg bg-[#FFD400] hover:bg-[#FFD400] backdrop-blur-[18px] headingColor mt-[8px] font-semibold">
               Book a Session
             </Button>
 

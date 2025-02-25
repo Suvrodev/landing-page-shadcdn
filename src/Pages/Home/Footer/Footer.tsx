@@ -104,19 +104,19 @@ const Footer = () => {
             At TCC, your mental well-being comes first—whether you seek personal
             healing, professional growth, or a healthier workplace.
           </p>
-          <div className="flex gap-[10px] mt-[16px] ">
-            <div className="w-1/2 ">
-              <h1 className="text-[12px] font-bold ">Contact</h1>
-              <p className="mt-[7px] text-[10px]">
+          <div className="flex flex-col gap-[10px] mt-[18px] ">
+            <div className="w-full flex flex-col items-center ">
+              <h1 className="text-[12px] font-bold text-center">Contact</h1>
+              <p className="mt-[8px] text-[10px]">
                 <span className="font-bold">Phone</span> : +8801710123456
               </p>
-              <p className="text-[10px] mt-[7px]">
+              <p className="text-[10px] mt-[4px]">
                 <span className="font-bold ">Email</span> : hello@tccbd.org
               </p>
-              <p className="text-[10px]  mt-[7px]">Mohakhali DOHS, Dhaka</p>
+              <p className="text-[10px]  mt-[4px]">Mohakhali DOHS, Dhaka</p>
             </div>
 
-            <div className="w-1/2">
+            <div className="w-full flex flex-col items-center mt-[14px]">
               <h1 className="text-[12px] font-bold ">Follow US</h1>
               <div className="mt-[7px]">
                 <svg
