@@ -17,7 +17,7 @@ const founders = [
 
 const Founder = () => {
   return (
-    <div className="px-[39px] md:px-[125px] ">
+    <div className="px-[39px]  ">
       <div className="relative rounded-lg p-[2px]">
         {/* Gradient Border */}
         <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-[#00ADEE] to-[#FFD400]"></div>

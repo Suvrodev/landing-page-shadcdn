@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 const BookASection = () => {
   return (
     <div>
-      <div className="hidden md:block bg-[linear-gradient(90deg,_#EAF9FF_0%,_#FFFADF_100%)] ps-[120px] pt-[100px]">
+      <div className="hidden md:flex items-center relative bg-[linear-gradient(90deg,_#EAF9FF_0%,_#FFFADF_100%)] px-[120px] h-[338px]  ">
         <div className="flex justify-between gap-20 items-center">
-          <div>
+          <div className="">
             <h1 className="text-[36px] font-semibold">
               Let’s build a compassionate world together.
             </h1>
@@ -14,7 +14,7 @@ const BookASection = () => {
               Book a Session
             </Button>
           </div>
-          <div className="relative mr-[122px]">
+          <div className="absolute bottom-0 right-0 mr-[122px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="233"

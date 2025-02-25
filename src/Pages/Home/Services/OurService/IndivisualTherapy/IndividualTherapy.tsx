@@ -16,7 +16,7 @@ const IndividualTherapy = () => {
         <div className="hidden md:block w-[15%] h-[100px]   "></div>
       </div>
       <div className="flex items-center justify-center my-[13px] md:my-[54px]">
-        <div className="w-[15%] h-[100px]   "></div>
+        <div className="hidden md:block w-[15%] h-[100px]   "></div>
 
         <div className="flex items-center gap-[10px] md:gap-[54px]  ">
           <TherapyBox data={ourServices[2]} />
