@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import { Button } from "@/components/ui/button";
 import bannerImage from "@/assets/bannerImage.png";
 import bannerMessage from "@/assets/Banner_Message.png";
+import bannerShadow from "@/assets/bannerShadow.png";
 
 const MobileBanner = () => {
   return (
@@ -10,24 +11,24 @@ const MobileBanner = () => {
         <Header />
       </div>
 
-      <div className="">
-        <div className=" flex flex-col items-center">
-          <div className="w-full  text-[24px] font-bold text-center">
+      <div className="px-[38px]">
+        <div className=" flex flex-col ">
+          <div className="w-full text-[48px] font-bold text-left">
             <h1>We're all a </h1>
             <h1>little tangled</h1>
           </div>
-          <p className="w-[301px] text-[8px] text-[#636160] mt-[14px]">
+          <p className="text-[15px] text-[#636160] mt-[12px]">
             Therapy isn’t just for tough times—it’s for growth, clarity, and
             self-care. See us in person or online, individually or through your
             workplace.
           </p>
 
-          <Button className=" text-black w-[104px] h-[24px] bg-[#FFD400] hover:bg-[#FFD400] mt-[20px] text-[10px] font-semibold">
+          <Button className="mt-[24px] text-black w-[104px] h-[24px] bg-[#FFD400] hover:bg-[#FFD400] text-[10px] font-semibold">
             Book a Session
           </Button>
         </div>
-        <div className="relative mt-[14px]  px-[30px]   ">
-          <div className="flex justify-between items-end gap-[50px] ">
+        <div className="relative mt-[12px]">
+          <div className="flex justify-between items-end gap-[40px] ">
             <p className="font-bold text-[14px] w-[134px] ">
               Accessible, <br /> Person-centered, <br /> and Transformative
             </p>
@@ -36,9 +37,12 @@ const MobileBanner = () => {
             </div>
           </div>
 
-          <div className="absolute left-[150px] bottom-[80px] ">
+          <div className="absolute left-[100px] bottom-[80px] ">
             <img src={bannerMessage} alt="" className="w-[46px] h-[45px]" />
           </div>
+        </div>
+        <div className="absolute bottom-0 right-[32%]">
+          <img src={bannerShadow} alt="" className="w-[80px] h-[73px]" />
         </div>
       </div>
     </div>

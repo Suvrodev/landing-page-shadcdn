@@ -29,7 +29,7 @@ const Founder = () => {
               Founders
             </h1>
           </div>
-          <div className="mt-[24px] mb-[30px] text-center">
+          <div className="mt-[11px] md:mt-[24px] mb-[30px] text-center">
             <p className="text-[12px] md:text-[26px] font-semibold">
               Meet the Minds Behind
             </p>
@@ -45,6 +45,21 @@ const Founder = () => {
             <div className="mx-[224px] flex items-center justify-center gap-[100px] mt-[46px]">
               <FounderImage data={founders[2]} />
               <FounderImage data={founders[3]} />
+              <FounderImage data={founders[4]} />
+            </div>
+          </div>
+
+          {/* For Mobile device */}
+          <div className="md:hidden  mt-[22px] mb-[16px]">
+            <div className="mx-[90px] flex items-center justify-center gap-[63px]">
+              <FounderImage data={founders[0]} />
+              <FounderImage data={founders[1]} />
+            </div>
+            <div className="mx-[90px] flex items-center justify-center gap-[63px] mt-[20px]">
+              <FounderImage data={founders[2]} />
+              <FounderImage data={founders[3]} />
+            </div>
+            <div className=" flex items-center justify-center  mt-[20px]">
               <FounderImage data={founders[4]} />
             </div>
           </div>
