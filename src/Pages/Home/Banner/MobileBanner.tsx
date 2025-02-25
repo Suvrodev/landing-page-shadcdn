@@ -13,7 +13,7 @@ const MobileBanner = () => {
 
       <div className="px-[38px]">
         <div className=" flex flex-col ">
-          <div className="w-full text-[48px] font-bold text-left">
+          <div className="w-full text-[48px] font-bold text-left leading-[48px]">
             <h1>We're all a </h1>
             <h1>little tangled</h1>
           </div>
