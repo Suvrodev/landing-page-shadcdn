@@ -3,21 +3,21 @@ import OrganizationalServices from "./IndivisualTherapy/OrganizationalServices/O
 
 const OurService = () => {
   return (
-    <div>
-      <h1 className="text-center font-bold text-[50px] headingColor">
+    <div className="">
+      <h1 className="text-center font-bold text-[20px] md:text-[50px] headingColor">
         Our Services
       </h1>
-      <div className="w-[494px] mx-auto mt-[10px]">
-        <p className="text-center headingColor leading-[34px] tracking-[0.21px]">
+      <div className="w-auto md:w-[494px] mx-auto mt-[10px] ">
+        <p className="text-center headingColor leading-[12px] md:leading-[34px] tracking-[0.21px] text-[10px] md:text-[22px]">
           Here to support you with care, understanding, and <br /> guidance
           every step of the way.
         </p>
       </div>
-      <div>
+      <div className="">
         <IndividualTherapy />
       </div>
 
-      <div className="mt-[154px]">
+      <div className="mt-[154px] ">
         <OrganizationalServices />
       </div>
     </div>

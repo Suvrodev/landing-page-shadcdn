@@ -28,7 +28,7 @@ const Home = () => {
       <div className="">
         <CoreValue />
       </div>
-      <div className="mt-[55px] hidden">
+      <div className="mt-[55px] ">
         <OurService />
       </div>
       <div className="  my-[132px]">
