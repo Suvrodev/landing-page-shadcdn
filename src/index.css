@@ -21,6 +21,10 @@
 /* ---break---
   */
 
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
+
 .headingColor {
   color: #231f20;
 }

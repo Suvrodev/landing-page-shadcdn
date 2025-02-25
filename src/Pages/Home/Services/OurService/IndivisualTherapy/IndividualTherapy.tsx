@@ -12,10 +12,12 @@ const IndividualTherapy = () => {
           <TherapyBox data={ourServices[0]} />
           <TherapyBox data={ourServices[1]} />
         </div>
-        <div className="w-[15%] h-[100px] bg-yellow-400  "></div>
+        {/* <div className="w-[15%] h-[100px] bg-yellow-400  "></div> */}
+        <div className="w-[15%] h-[100px]   "></div>
       </div>
       <div className="flex items-center justify-center my-[54px]">
-        <div className="w-[15%] h-[100px] bg-yellow-400  "></div>
+        {/* <div className="w-[15%] h-[100px] bg-yellow-400  "></div> */}
+        <div className="w-[15%] h-[100px]   "></div>
 
         <div className="flex items-center gap-[54px]  ">
           <TherapyBox data={ourServices[2]} />

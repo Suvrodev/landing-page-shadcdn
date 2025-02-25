@@ -22,8 +22,8 @@ const Banner = () => {
             workplace.
           </p>
 
-          <Button className=" text-black w-[209px] h-[48px] bg-[#FFD400] hover:bg-[#FFD400] mt-[59px]">
-            Destructive
+          <Button className=" text-black w-[209px] h-[48px] bg-[#FFD400] hover:bg-[#FFD400] mt-[59px] text-[20px] font-semibold">
+            Book a Session
           </Button>
 
           <p className="font-bold mt-[41px]">
