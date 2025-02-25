@@ -100,7 +100,7 @@ const Footer = () => {
       <div className=" md:hidden bg-[#FFD400] flex justify-center  p-[40px] headingColor">
         <div className="flex flex-col items-center">
           <img src={logoImage} alt="" className="w-[151.96px] h-[48px]" />
-          <p className="mt-[16px]  text-[8px] capitalize">
+          <p className="mt-[16px]  text-[8px] text-center capitalize">
             At TCC, your mental well-being comes first—whether you seek personal
             healing, professional growth, or a healthier workplace.
           </p>

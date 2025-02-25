@@ -1,7 +1,7 @@
 import compassionImage from "@/assets/compassionImage.png";
 const Compassion = () => {
   return (
-    <div className="px-[38px] md:pl-[68px] md:pr-[128px] ">
+    <div className="px-[38px] md:pl-[68px] md:pr-[128px] relative">
       <div className="flex flex-col-reverse md:flex-row gap-[20px] md:gap-[103px]">
         <div className=" w-full md:w-[33%] flex justify-center items-center ">
           <img
@@ -44,6 +44,46 @@ const Compassion = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Water mark in mobile device */}
+      <div className="absolute -bottom-10 left-0 md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="55"
+          height="168"
+          viewBox="0 0 55 168"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M-29 168C17.3919 168 55 130.392 55 84L-29 84V168Z"
+            fill="#FFF9DA"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M-29 0C17.3919 0 55 37.6081 55 84L-29 84V0Z"
+            fill="#FFF9DA"
+          />
+        </svg>
+      </div>
+      <div className="absolute bottom-0 right-0 md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="84"
+          height="84"
+          viewBox="0 0 84 84"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M84 84C37.6081 84 0 46.3919 0 0L84 0V84Z"
+            fill="#FFF7CF"
+          />
+        </svg>
       </div>
     </div>
   );

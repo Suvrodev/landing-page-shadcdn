@@ -29,7 +29,7 @@ const Approch = () => {
       </div>
 
       {/* For Mobile */}
-      <div className="md:hidden absolute -left-[30px] top-0">
+      {/* <div className="md:hidden absolute -left-[30px] top-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="55"
@@ -57,7 +57,7 @@ const Approch = () => {
       <div className="hidden md:block absolute right-0 bottom-0">
         <img src={right_top_} alt="" />
         <img src={right_down} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

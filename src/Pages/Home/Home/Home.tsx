@@ -10,7 +10,7 @@ import OurService from "../Services/OurService/OurService";
 
 const Home = () => {
   return (
-    <div className="md:mx-[120px] ">
+    <div className="">
       <div className="">
         <div className="hidden md:block">
           <Banner />
@@ -19,19 +19,19 @@ const Home = () => {
           <MobileBanner />
         </div>
       </div>
-      <div className="mt-[38px] md:mt-[126px] ">
+      <div className="md:mx-[120px]  mt-[38px] md:mt-[126px] ">
         <Compassion />
       </div>
-      <div className=" ">
+      <div className=" md:mx-[120px] ">
         <Approch />
       </div>
       <div className="">
         <CoreValue />
       </div>
-      <div className="mt-[20px] md:mt-[55px] ">
+      <div className="md:mx-[120px] mt-[20px] md:mt-[55px] ">
         <OurService />
       </div>
-      <div className=" my-[55px] md:my-[132px]">
+      <div className="md:mx-[120px]  my-[55px] md:my-[132px]">
         <Founder />
       </div>
       <div className="">
